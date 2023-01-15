@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #424242;
+}
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+}
+p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+button{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Header Section Start */
+.header-section{
+    background-color: #FFF4E7;
+    position: absolute;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+}
+.header-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-item{
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.banner-section{
+    margin: 50px 100px;
+    text-align: center;
+}
+.banner-article{
+    margin: 0 150px;
+}
+.banner-title{
+    margin-bottom: 20px;
+}
+.banner-decription{
+    margin-bottom: 20px;
+}
+.banner-img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/*-----------------
+ Responsive start
+ -----------------*/
+
+ /*----------------Small Device  / Mobile -----------*/
+ @media only screen and (max-width: 576px) {
+    header{
+        margin: 50px 5%;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-title{
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .nav-lists{
+        margin: 10px 0;
+    }
+    .banner-article{
+        margin: 0 0;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .banner-section{
+        margin: 50px 5%;
+    }
+  }
+  
+  /*----------------Medium Device  / Tab -----------*/
+  @media only screen and (min-width: 577px) and (max-width: 768px){
+    .header{
+        margin: 50px 5%;
+    }
+    .header-title{
+        font-size: 30px;
+    }
+    .banner-section{
+        margin: 50px 5%;
+    }
+    .banner-article{
+        margin: 0 0;
+    }
+    .banner-title{
+        font-size: 40px;
+    }
+  }
